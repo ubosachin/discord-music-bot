@@ -102,7 +102,6 @@ docker pull ghcr.io/TannerGabriel/discord-bot:latest
 
 A Github Action automatically builds and push `amd64` and `arm64` to ghcr.io, all builds are based on the main branch.
 
-Only `:latest` tag is supported, otherwise use SHA256 from https://github.com/TannerGabriel/discord-bot/pkgs/container/discord-bot for pinning to a specific commit.
 
 ## Features & Commands
 
@@ -250,14 +249,4 @@ The `play` command requires FFMPEG to be installed on the machine that is runnin
 
 You are welcome to contribute by submitting a Pull Request to the repository.
 
-## Author
 
-[Gabriel Tanner](https://gabrieltanner.org/)
-
-## Support me
-
-<a href="https://www.buymeacoffee.com/gabrieltanner" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
