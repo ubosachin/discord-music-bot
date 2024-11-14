@@ -15,11 +15,11 @@ module.exports = {
         const member = interaction.options.getUser('user');
 
         if (!member) {
-            return interaction.reply('You need to mention the member you want to ban him');
+            return interaction.reply('Mention krr loo BSDK');
         }
 
         if (!interaction.member.permissions.has('BAN_MEMBERS')) {
-            return interaction.reply("I can't ban this user.");
+            return interaction.reply("Mai nhi krr skti laode");
         }
 
         const userinfo = client.users.cache.getMember(member);
